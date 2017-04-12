@@ -1,12 +1,12 @@
 body {
 	background-color: #ddd;
-	font-family: "Times New Roman", Times, serif;
+	font-family:verdana,Georgia, Times, serif;
 }
 #mainContainer {
-	width: 800px;
+	
 	background-color:  #e6f2ff;
 	margin:0 auto;
-	
+	border-radius: 5px;margin-top: 
 }
 #header{
 	text-align: center;
@@ -15,6 +15,8 @@ body {
 	font: bold;
 	font-size: 25px;
 	color:steelblue;
+	cursor:pointer;
+	margin: 10;
 }
 .vertical{
 	width: 33.33%;
@@ -25,9 +27,15 @@ body {
 }
 #divplayer1{
 	background-color: #80bfff;
+	 -moz-box-shadow:    inset 0 0 150px #80bfff;
+   -webkit-box-shadow: inset 0 0 150px #80bfff;
+   box-shadow:         inset 0 0 150px #80bfff;
 }
 #divplayer2{
 	background-color: #99ccff;
+	-moz-box-shadow:    inset 0 0 150px #80bfff;
+   -webkit-box-shadow: inset 0 0 150px #80bfff;
+   box-shadow:         inset 0 0 150px #80bfff;
 }
 #result{
 	background-color:#80bfff;
@@ -87,6 +95,14 @@ div.dice{
 	text-align: center;
 	padding-top:10px;
 	color: black;
+	text-align: center;
+	font-size: 35px;
+	color:green;
+
+   -moz-box-shadow:    inset 0 0 60px green;
+   -webkit-box-shadow: inset 0 0 60px green;
+   box-shadow:         inset 0 0 60px green;
+
 
 }
 #currentScore2{
@@ -98,15 +114,44 @@ div.dice{
 	text-align: center;
 	padding-top:10px;
 	color: black;
+	text-align: center;
+	font-size: 35px;
+	color:green;
+
+   -moz-box-shadow:    inset 0 0 60px green;
+   -webkit-box-shadow: inset 0 0 60px green;
+   box-shadow:         inset 0 0 60px green;
 
 }
-#score{
+#score1{
 	height: 80px;
 	width: 140px;
-	background-color: 	 #ffff80;
+	background-color:#ffff80;
 	margin:0 auto;
-	
+	text-align: center;
+	font-size: 35px;
+	color:green;
 
+   -moz-box-shadow:    inset 0 0 60px #ff5050;
+   -webkit-box-shadow: inset 0 0 60px #ff5050;
+   box-shadow:         inset 0 0 60px #ff5050;
+
+
+}
+#score2{
+	height: 80px;
+	width: 140px;
+	background-color:#ffff80;
+	margin:0 auto;
+	text-align: center;
+	font-size: 35px;
+	color:green;
+
+   -moz-box-shadow:    inset 0 0 60px #ff5050;
+   -webkit-box-shadow: inset 0 0 60px #ff5050;
+   box-shadow:         inset 0 0 60px #ff5050;
+
+	
 }
 #hold:hover {
   background: #3cb0fd;
@@ -132,6 +177,13 @@ div.dice{
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  margin-left: 90px;
+  margin-left: 135px;
   margin-top: 20px;
+}
+.text{
+	padding-left: 120px;
+	color: white;
+	font-weight: bold;
+	font-stretch: 20px;
+
 }
